@@ -1,0 +1,48 @@
+body{
+	background: url(../img/671-16012Q40946.jpg);
+	background-size: 100%;
+}
+.le{
+	text-align: center;
+	color:black;
+}
+.content{
+	width: 700px;
+	margin: auto;
+}
+.content img{
+	/*1.边框宽度  2。边框类型  3.边框颜色*/
+	border: 10px solid white;
+	/*过度*/
+	transition: all 0.3s;
+	position: relative;
+	/*右偏移，下偏移，阴影模糊度，颜色*/
+	box-shadow: 10px 10px 20px mediumpurple;
+   
+}
+.content .img1{
+	/*旋转，*/
+	transform: rotate(-10DEG);
+}
+.content .img2{
+	transform: rotate(10DEG);
+}
+.content .img3{
+	transform: rotate(-20DEG);
+}
+.content .img4{
+	transform: rotate(20DEG);
+}
+.content .img5{
+	transform: rotate(5DEG);
+}
+.content .img6{
+	transform: rotate(-5DEG);
+}
+
+/*监听鼠标滑动*/
+.content img:hover{
+	/*旋转 放大*/
+	transform: rotate(0) scale(1.5);
+	z-index: 1;
+}

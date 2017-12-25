@@ -1,0 +1,544 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"te",
+				"te-ac	text-emphasis: accent;"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"mag",
+				"margin"
+			],
+			[
+				"align",
+				"vertical-align"
+			],
+			[
+				"text",
+				"text2"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"t",
+				"transparent"
+			],
+			[
+				"r",
+				"transparent"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"li",
+				"list	list-style-type"
+			],
+			[
+				"ali",
+				"text-align"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"hea",
+				"header"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"he",
+				"header"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"cl",
+				"color"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"w",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n<html lang=\"en\">\n<head>\n	<meta http-equiv=\"Content-Type\" content=\"text/html;charset=UTF-8\">\n	<title>温馨的家</title>\n	<style>\n		a{text-decoration: none;}\n	    ul li{list-style-type: none;}\n        *{margin: 0; border: 0; padding: 0;}\n        #header{\n        	width: 1080px;\n        	height: 300px;\n        	margin: 0 auto;\n        }\n        #hleft{\n        	width: 330px;\n        	height: 300px;\n        	background: skyblue;\n        	float: left;\n        }\n        #hright{\n        	width: 750px;\n        	height: 300px;\n        	background: blue;\n        	float: right;\n        }\n        #nav{\n        	margin-left: 40px;\n        	margin-top:250px; \n        }\n        #nav li{\n        	width: 50px;\n        	background: pink;\n        	float: left;\n        	margin-right: 30px;\n        }\n        #nav a:link{\n             width: 50px;\n             display: block;\n        }\n        #nav a:hover{\n        	 width: 50px;\n             display: block;\n        }\n        #main{\n        	width: 1080px;\n        	height: 1000px;\n        	background: pink;\n        	margin: 0 auto;\n        }\n        #left{\n        	width: 380;\n        	height: 1000px;\n        	background: orange;\n        	float: left;\n        }\n        #right{\n        	width: 700px;\n        	height: 1000px;\n        	background: yellow;\n        	float: right;\n        }\n        #butong_net_right{\n        	width: 1080;\n        	height: 333px;\n        }\n	</style>\n</head>\n<body>\n	<div id=\"header\">\n		<div id=\"hleft\"></div>\n		<div id=\"hright\">\n			<ul id=\"nav\">\n				<li><a href=\"#\">陈志鹏</a></li>\n				<li><a href=\" \">潘旺南</a></li>\n				<li><a href=\" \">常佳乐</a></li>\n				<li><a href=\" \">王桑乔</a></li>\n			</ul>\n		</div>\n	</div>\n	<div id=\"main\">\n		<div id=\"left\"></div>\n		<div id=\"right\">\n			<div class=\"first\"></div>\n			<div class=\"second\"></div>\n			<div class=\"three\"></div>\n			<div class=\"four\"></div>\n		</div>\n		<div id=\"butong_net_right\">\n			<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\">\n			<tr><td id=\"butong_net_right1\" valign=\"top\" align=\"center\">\n			<table cellpadding=\"2\" cellspacing=\"0\" border=\"0\">\n			<tr align=\"center\">\n			<td><img src=\"1.jpg\" width=\"200\" height=\"333\"></td>\n			<td><img src=\"2.jpg\" width=\"200\" height=\"333\"></td>\n			<td><img src=\"3.jpg\" width=\"200\" height=\"333\"></td>\n			<td><img src=\"4.jpg\" width=\"200\" height=\"333\"></td>\n			<td><img src=\"5.jpg\" width=\"200\" height=\"333\"></td>\n			</tr>\n			</table>\n			</td>\n			<td id=\"butong_net_right2\" valign=\"top\"></td>\n			</tr>\n			</table>  \n		</div>\n	<div id=\"footer\"></div>\n	</div>\n</body>\n<script>\nvar speed=30//速度数值越大速度越慢\nbutong_net_right2.innerHTML=butong_net_right1.innerHTML\nfunction Marquee4(){\nif(butong_net_right.scrollLeft<=0)\nbutong_net_right.scrollLeft+=butong_net_right2.offsetWidth\nelse{\nbutong_net_right.scrollLeft--\n}\n}\nvar MyMar4=setInterval(Marquee4,speed)\nbutong_net_right.onmouseover=function() {clearInterval(MyMar4)}\nbutong_net_right.onmouseout=function() {MyMar4=setInterval(Marquee4,speed)}\n</script>　 \n</html>",
+			"file": "index.html",
+			"file_size": 3059,
+			"file_write_time": 131572098777377828,
+			"settings":
+			{
+				"buffer_size": 3047,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0 Transitional//EN\">\n<HTML> 　\n<head>\n<title>图片滚动</title>\n</head>\n<BODY> 　\n<div id=\"butong_net_right\" style=\"overwidth:1080px;\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\">\n<tr><td id=\"butong_net_right1\" valign=\"top\" align=\"center\">\n<table cellpadding=\"2\" cellspacing=\"0\" border=\"0\">\n<tr align=\"center\">\n<td><img src=\"1.jpg\" width=\"200\" height=\"333\"></td>\n<td><img src=\"2.jpg\" width=\"200\" height=\"333\"></td>\n<td><img src=\"3.jpg\" width=\"200\" height=\"333\"></td>\n<td><img src=\"4.jpg\" width=\"200\" height=\"333\"></td>\n<td><img src=\"5.jpg\" width=\"200\" height=\"333\"></td>\n</tr>\n</table>\n</td>\n<td id=\"butong_net_right2\" valign=\"top\"></td>\n</tr>\n</table>\n　</BODY>  \n<script>\nvar speed=30//速度数值越大速度越慢\nbutong_net_right2.innerHTML=butong_net_right1.innerHTML\nfunction Marquee4(){\nif(butong_net_right.scrollLeft<=0)\nbutong_net_right.scrollLeft+=butong_net_right2.offsetWidth\nelse{\nbutong_net_right.scrollLeft--\n}\n}\nvar MyMar4=setInterval(Marquee4,speed)\nbutong_net_right.onmouseover=function() {clearInterval(MyMar4)}\nbutong_net_right.onmouseout=function() {MyMar4=setInterval(Marquee4,speed)}\n</script>　 \n　</HTML>",
+			"file": "wsq.html",
+			"file_size": 1183,
+			"file_write_time": 131572099916782846,
+			"settings":
+			{
+				"buffer_size": 1149,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"emm",
+				"Emmet: Evaluate Math Expression"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/G/网页制作初体验html/myself website/third.html",
+		"/G/网页制作初体验html/相对定位与绝对定位.html",
+		"/G/网页制作初体验html/相对定位与绝对定位.sublime-workspace",
+		"/G/网页制作初体验html/flex.html",
+		"/G/网页制作初体验html/moon.html",
+		"/G/网页制作初体验html/01.html",
+		"/G/网页制作初体验html/index.html",
+		"/G/网页制作初体验html/02.html",
+		"/G/网页制作初体验html/首页实战.html",
+		"/G/网页制作初体验html/young.html",
+		"/G/网页制作初体验html/myself website/index.html、",
+		"/G/网页制作初体验html/second.html",
+		"/G/网页制作初体验html/young/young.html",
+		"/G/网页制作初体验html/js/01.js",
+		"/G/网页制作初体验html/a标签锚点和伪类.html",
+		"/G/网页制作初体验html/young/antique beauty.jpg",
+		"/G/网页制作初体验html/young/looking at the stars.png",
+		"/G/网页制作初体验html/寝室卫生值日表.html",
+		"/G/网页制作初体验html/月半.html",
+		"/G/网页制作初体验html/03.html",
+		"/G/网页制作初体验html/17素材01.html",
+		"/G/网页制作初体验html/just like before/02.html",
+		"/G/网页制作初体验html/03.sublime-workspace",
+		"/G/网页制作初体验html/css/demo.css",
+		"/C/Users/王桑乔/Desktop/Sublime Text 64bit/Sublime Text/Data/Packages/User/Emmet.sublime-settings"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 3047,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2543,
+								2543
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+								"php": "D:\\amp\\php\\php.exe"
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2884.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "wsq.html",
+					"settings":
+					{
+						"buffer_size": 1149,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								158,
+								158
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+								"php": "D:\\amp\\php\\php.exe"
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 86.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

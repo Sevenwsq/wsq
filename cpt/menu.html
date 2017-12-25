@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Welcome</title>
+	<style>
+	#all{
+		width: 100%;
+		height: 1920px;
+		background: linear-gradient(#ff0080,sandybrown,#ffe66f,aquamarine,cyan,#84c1ff,orchid);
+	}
+	#fixation{
+		height: 450px;
+		width: 50%;
+		position: fixed;
+		left: 25%;
+		right: 25%;
+		top: 180px;	
+	}
+	#first{
+		width: 360px;
+		height: 63px;
+		margin: 0 auto;
+		animation:first 1s;
+	}
+	#second{
+		width: 360px;
+		height: 63px;
+		margin: 0 auto;
+		margin-top: 35px;
+		animation:second 2s ;
+	}
+	#third{
+		width: 360px;
+		height: 63px;
+		margin: 0 auto;
+		margin-top: 35px;
+		animation:third 3s ;
+	}
+	#fourth{
+		width: 360px;
+		height: 63px;
+		margin: 0 auto;
+		margin-top: 35px;
+		animation:fourth 4s;
+	}
+	img:hover{
+			transform: scale(1.05);
+			box-shadow: 2px 2px 4px  ivory;
+	}
+	img:active{
+		transition:all 2.0s;
+		transform: scale(0.7);
+	}
+	@keyframes first{
+		0%{width: 0px; height: 0px; margin: 0 auto;}
+	}
+	@keyframes second{
+		25%{width: 0px; height: 0px; margin: 0 auto;}
+	}
+	@keyframes third{
+		50%{width: 0px; height: 0px; margin: 0 auto;}
+	}
+	@keyframes fourth{
+		50%{width: 0px; height: 0px; margin: 0 auto;}
+	}
+	</style>
+</head>
+<body>
+	<div id="all"></div>
+	<div id="fixation">
+		<div id="first"><a href="index.html" target="_blank"><img src="菜单.jpg" alt="首页" width="360px" height="63px"></a></div>
+		<div id="second"><a href="ln.html"><img src="李娜.jpg" alt="李娜" width="360px" height="63px"></a></div>
+		<div id="third"><a href="wsq.html"><img src="王桑乔.jpg" alt="王桑乔" width="360px" height="63px"></a></div>
+		<div id="fourth"><a href="cjl.html"><img src="常佳乐.jpg" alt="常佳乐" width="360px" height="63px"></a></div>
+	</div>
+</body>
+</html>

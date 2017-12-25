@@ -1,0 +1,979 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cen",
+				"center1"
+			],
+			[
+				"h",
+				"hobby"
+			],
+			[
+				"p",
+				"position"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"center",
+				"center1"
+			],
+			[
+				"b",
+				"bolder"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"bo",
+				"border-bottom"
+			],
+			[
+				"c",
+				"cleft"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"to",
+				"topheader"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"m",
+				"margin-top"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"dd",
+				"dotted点"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"ab",
+				"aboveheader"
+			],
+			[
+				"bgcl",
+				"background-color"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"mag",
+				"margin"
+			],
+			[
+				"tx",
+				"tx"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"align",
+				"vertical-align"
+			],
+			[
+				"text",
+				"text2"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"t",
+				"transparent"
+			],
+			[
+				"r",
+				"transparent"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"li",
+				"list	list-style-type"
+			],
+			[
+				"ali",
+				"text-align"
+			],
+			[
+				"hea",
+				"header"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"he",
+				"header"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"cl",
+				"color"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"w",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 10558,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n<html lang=\"en\">\n<head>\n	<meta http-equiv=\"Content-Type\" content=\"text/html;charset=UTF-8\">\n	<title>myself</title>\n	<style>\n	a{text-decoration: none;}\n	li{list-style-type: none;}\n	*{margin: 0;padding: 0;}\n	#all{\n		width: 100%;\n		height: 1810px;\n		background: linear-gradient(white,aquamarine,white);\n	}\n	#topheader{\n		position: fixed;/*相对于窗口定位*/\n		width: 800px;\n		height: 50px;\n		margin: auto;\n		left: 0;right: 0;top: 0;\n		background: url(top.png);\n		opacity:0.6;\n	}\n	#topheader p{\n		text-align: right;\n		margin-right: 50px;\n		font-size: 22px;\n		font-family: \"方正楷体\";\n		margin-top: 10px;\n	}\n	#topheader  a:hover{\n		text-align: right;\n		font-size: 22px;\n		font-family: \"方正楷体\";\n		margin-top: 10px;\n		color: skyblue;\n		background: green;\n		background: rgba(0,0,0,0.4);\n	}\n	#header{\n		width: 800px;\n		height: 120px;\n		margin: 0 auto;\n		margin-top:60px; \n		background: ivory;\n		border-bottom: 3px lawngreen dotted;\n		font-family: \"方正楷体\"; \n	}\n	#htop{\n		height: 50px;\n	}\n	#left{\n		height: 50px;\n		width: 400px;\n		float: left;\n	}\n	#right{\n		height: 35px;\n		width: 300px;\n		float: right;\n		margin-top:15px; \n	}\n	#right p{\n		overflow: hidden;\n		text-align: right;\n		font-size: \"方正楷体\";\n		font-family: darkgreen;\n		font-size: 20px;\n	}\n	#hcenter{\n		height: 60px;\n	}\n	#cleft{\n		width: 500px;\n		float: left;\n	}\n	#cright{\n		width: 200px;\n		height: 60px;\n		float: right;\n		margin-right: 45px;\n		background: url(welcome.png);\n	}\n	#main{\n		width: 800px;\n		height: 350px;\n		margin: 0 auto;\n		border-bottom: 3px lawngreen dotted;\n		background: ivory;\n	}\n	#mleft{\n		width: 450px;\n		height: 300px;\n		float: left;\n		margin-left: 10px;\n	}\n	 #mleft li {\n                width: 450px;\n                margin-top:8px;\n        }\n     #mleft a:link{\n                font-size: 25px;\n                font-family: \"方正楷体\";\n                color: cyan;\n                display: block;//内联强制转换为块状\n                width: 500px;\n                height: 40px;\n                line-height: 25px;\n        }\n      #mleft a:hover{\n                color: black;\n                background: gray;\n                background: rgba(0,0,0,0.2);\n                transform: scale(1.05);\n            }\n       #mleft a:active{\n                color: black;\n                background: rgba(0,0,0,0.5);\n                transform: scale(1.05);\n            }\n        #mright{\n				width: 300px;\n				height: 300px;\n				float: right;\n				margin-top: 20px;\n				margin-right: 10px;\n				background: url(note.png);\n            }\n            #meng{\n            	width: 300px;\n            	height: 300px;\n            }\n            #meng :link{\n            	background: none;\n            }\n            #meng:hover{\n            background: url(meng.jpg);\n            opacity:0.6;\n            }\n            #ftop{\n            	border-top:10px white solid; \n            	border-bottom:10px white solid; \n            	background: ivory;\n            	font-size: 40px;\n            	width: 800px;\n            	height: 50px;\n            	margin: 0 auto;\n            	color: darkgoldenrod;\n            	font-family: \"新宋体\";\n            }\n            #footer{\n            	width: 800px;\n            	height: 400px;\n            	margin:  0 auto;\n            	background: ivory;\n            	border-bottom:10px white solid; \n            }\n           #footer img{\n              margin-top: 30px;\n              margin-left: 50px; \n              float: left;\n            }\n          #lright{\n              width: 350px;\n              height: 350px;\n              margin: 25px;\n              margin-top: 50px;\n              margin-right:50px; \n              float: right;\n              font-size: 22px;\n              line-height: 1.4;\n              text-indent: 2em;\n              text-decoration: underline;\n          }\n         #end{\n         	margin: 0 auto;\n         	width: 800px;\n         	height: 400px;\n         	background: ivory;\n         	border-bottom: 3px lawngreen dotted;\n         }\n         #eleft{\n         	  width: 350px;\n              height: 350px;\n              margin: 25px;\n              margin-top: 50px;\n              margin-right:50px; \n              float: left;\n              font-size: 20px;\n              line-height: 1.4;\n              text-indent: 2em;\n              text-decoration: underline;\n         }\n          #end img{\n              margin-top: 30px;\n              margin-right: 50px;\n              float: right;\n            }\n           \n            #other{\n            margin: 0 auto;\n         	width: 800px;\n         	height: 350px;\n         	background: ivory;\n         	border-top:10px white solid;\n          border-bottom: 25px white solid; \n            }\n            #oleft{\n            margin: 0 auto;\n         	width: 300px;\n         	height: 350px;\n         	margin: 50px;\n         	margin-top:0px; \n         	float: left;\n            }\n            #top1{\n				width: 300px;\n				height: 35px;\n				margin: 0 auto;\n				background: lawngreen;\n				border: 8px green double;\n       opacity: 0.4;\n				letter-spacing: 20px;\n				font-size: 30px;\n				font-weight: 900;\n				text-align: center;\n            }\n            #center1{\n             width: 300px;\n              height: 250px;\n              margin: 25px;\n              margin-top: 5px;\n              margin-left: 8px;\n              float: left;\n              font-size: 20px;\n              background: ivory;\n              color: black;\n            }\n           \n           #hobby{\n            	width: 300px;\n               height: 250px;\n               background: url(myhobby.jpg);\n            }\n             #hobby img{\n              width: 150px;\n              height: 200px;\n              float: left;\n              margin-left:60px;\n              margin-top:20px;\n              position: absolute;\n              z-index: 1; \n              opacity: 0.5;\n            }\n          #hobby:link{\n             background: url(myhobby.jpg);\n              opacity: 0.5;\n            }\n            #hobby:hover{\n              background: none;\n              transition:all 1.5s;\n              transform: rotateY(360deg) ;\n            }\n            #oright{\n            margin: 0 auto;\n         	width: 300px;\n         	height: 350px;\n         	margin: 50px;\n         	margin-top:0px;\n         	float: right;\n            }\n            #top2{\n				width: 300px;\n				height: 35px;\n				margin: 0 auto;\n				background: lawngreen;\n				border: 8px green double;\n				opacity:0.4;\n				letter-spacing: 20px;\n				font-size: 30px;\n				font-weight: 900;\n				text-align: center;\n            }\n            #center2{\n              width: 300px;\n              height: 250px;\n              margin: 25px;\n              margin-left: 8px;\n              margin-top: 5px;\n              float: left;\n              font-size: 20px;\n              line-height: 1.4;\n            }\n             #dream{\n            	width: 300px;\n              height: 250px;\n               background: url(mydream.jpg);\n            }\n             #dream img{\n              width: 150px;\n              height: 200px;\n              float: left;\n              margin-left:60px;\n              margin-top:20px;\n              position: absolute;\n              z-index: 1; \n              opacity: 0.6;\n            }\n          #dream:link{\n             background: url(mydream.jpg);\n              opacity: 0.5;\n            }\n            #dream:hover{\n             background: none;\n               transition:all 1.5s;\n              transform: rotateY(360deg) ;\n            }\n             #other p{\n              display: block;\n              margin-top:200px;\n              margin-left:70px; \n              position: absolute;\n              margin-right: 95px;\n              z-index: -1; \n              text-decoration:underline;\n              text-align: center;\n            }\n             #none{\n              width: 900px;\n              height: 15px;\n              margin: 0 auto;\n              background: white;\n              opacity:0.3;\n              border-bottom: 3px green dotted;\n              border-top: 3px green dotted;\n            }\n	</style>\n</head>\n<body>\n	<div id=\"all\">\n	<div id=\"topheader\">\n		<p><a href=\"index.html\" target=\"_blank\">首页</a></p>\n	</div>\n	<div id=\"header\">\n		<div id=\"htop\">\n		<div id=\"left\">\n			<h1>我的名字是王桑乔</h1></div>\n      <div id=\"right\"> \n      	<marquee behavior=\"scroll\" direction=\"left\" scorolldelay=\"1000\"  onMouseOUt=\"this.start()\" onMouseOver=\"this.stop()\">\n        	<p>欢迎来到我的个人主页</p>\n        </marquee>\n    </div>\n        </div>\n		<div id=\"hcenter\">\n			<div id=\"cleft\"><h2>座右铭:要有最遥远的梦想，与最朴素的生活<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp即使明日天寒地冻，路远马亡......</h2></div>\n			<div id=\"cright\"></div>\n		</div>\n	</div>\n	<div id=\"main\">\n		<div id=\"mleft\">\n		\n			<li><a href=\"\" ><img src=\"gender.png\" alt=\"性别\">性别：男</a></li>\n			<li><a href=\"\"><img src=\"QQ.png\" alt=\"QQ\">QQ：381481740</a></li>\n			<li><a href=\"\"><img src=\"mail.png\" alt=\"邮箱\">邮箱：381481740@qq.com</a></li>\n			<li><a href=\"\"><img src=\"telephone1.png\" alt=\"电话\">17856001700</a></li>\n			<li><a href=\"\"><img src=\"house.png\" alt=\"地址\">家乡：安徽蚌埠</a></li>\n			<li><a href=\"http://www.chzu.edu.cn/\"><img src=\"mao.png\" alt=\"学校\">学校：滁州学院</a></li>\n		\n		</div>\n		<div id=\"mright\">\n			<a href=\" \"><div id=\"meng\"></div></a>\n		</div>\n	</div>\n		<div id=\"ftop\">个人成长经历:</div>\n	<div id=\"footer\">\n	<img src=\"boy.gif\" width=\"300px\" height=\"300px\"><!--图片来源于网络-->\n	<div id=\"lright\"><span>前十八年大都生活在与社会隔离的学校当中，不知生活艰苦，举步维艰。学校生活的大都用在学习上，最大的乐趣莫过于看书，课外书，倒是养成了喜欢看书的习惯。不知从何时起，偶尔会跟同学一起打打篮球，直到现在依然觉得篮球很有趣，虽然打的不怎么样。</span></div>\n	</div>\n	<div id=\"end\">\n		<div id=\"eleft\">今年十九岁。在跨入了大学校门之后，才渐渐懂得了父母的不易，也明白了大学其实并不是天堂。社会究竟是美好的还是残酷，大学会向我慢慢揭晓。不过，生活是自己的，将来是美好或是艰苦，无论如何都与大学的努力程度脱不了干系。所以再次把座右铭送给自己——要有最遥远的梦想，与最朴素的生活，即使明日天寒地冻，路远马亡……</div>\n		<img src=\"flower.gif\" width=\"300px\"height=\"300px\" >\n	</div>\n	<div id=\"other\">\n		<div id=\"oleft\">\n			<div id=\"top1\">我的爱好</div>\n			<div id=\"center1\">\n				<a href=\" \"><div id=\"hobby\"><img src=\"b.gif\" width=\"150px\" height=\"150px\"> <p>平时爱打篮球</dr>也喜欢看书</p> </div></a>\n			</div>\n		</div>\n		<div id=\"oright\">\n			<div id=\"top2\">我的梦想</div>\n			<div id=\"center2\">\n				<a href=\"\"><div id=\"dream\"><img src=\"t.gif\" alt=\"\"><p>我想成为一名</dr>前端攻城狮</p></div></a>\n			</div>\n		</div>\n	</div>\n	<div id=\"none\"></div>\n	</div>\n</body>\n</html>",
+			"file": "wsq.html",
+			"file_size": 11114,
+			"file_write_time": 131582433937087296,
+			"settings":
+			{
+				"buffer_size": 10247,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Happy New Year.html",
+			"settings":
+			{
+				"buffer_size": 588,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n<html lang=\"en\">\n<head>\n	<meta http-equiv=\"Content-Type\" content=\"text/html;charset=UTF-8\">\n	<title>蚌埠风光</title>\n	<style>\n\n	</style>\n</head>\n<body>\n	<div id=\"header\"></div>\n	<div id=\"mian\"></div>\n	<div id=\"footer\"></div>\n</body>\n</html>",
+			"file": "city.html",
+			"file_size": 82,
+			"file_write_time": 131579827669301677,
+			"settings":
+			{
+				"buffer_size": 327,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ln.html",
+			"settings":
+			{
+				"buffer_size": 621,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"emm",
+				"Emmet: Evaluate Math Expression"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/G/网页制作初体验html/522寝室/Happy New Year.html",
+		"/G/网页制作初体验html/myself website/third.html",
+		"/G/网页制作初体验html/相对定位与绝对定位.html",
+		"/G/网页制作初体验html/相对定位与绝对定位.sublime-workspace",
+		"/G/网页制作初体验html/flex.html",
+		"/G/网页制作初体验html/moon.html",
+		"/G/网页制作初体验html/01.html",
+		"/G/网页制作初体验html/index.html",
+		"/G/网页制作初体验html/02.html",
+		"/G/网页制作初体验html/首页实战.html",
+		"/G/网页制作初体验html/young.html",
+		"/G/网页制作初体验html/myself website/index.html、",
+		"/G/网页制作初体验html/second.html",
+		"/G/网页制作初体验html/young/young.html",
+		"/G/网页制作初体验html/js/01.js",
+		"/G/网页制作初体验html/a标签锚点和伪类.html",
+		"/G/网页制作初体验html/young/antique beauty.jpg",
+		"/G/网页制作初体验html/young/looking at the stars.png",
+		"/G/网页制作初体验html/寝室卫生值日表.html",
+		"/G/网页制作初体验html/月半.html",
+		"/G/网页制作初体验html/03.html",
+		"/G/网页制作初体验html/17素材01.html",
+		"/G/网页制作初体验html/just like before/02.html",
+		"/G/网页制作初体验html/03.sublime-workspace",
+		"/G/网页制作初体验html/css/demo.css",
+		"/C/Users/王桑乔/Desktop/Sublime Text 64bit/Sublime Text/Data/Packages/User/Emmet.sublime-settings"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 10558,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2108,
+								2108
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+								"php": "D:\\amp\\php\\php.exe"
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1502.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "wsq.html",
+					"settings":
+					{
+						"buffer_size": 10247,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								295,
+								295
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+								"php": "D:\\amp\\php\\php.exe"
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3352.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Happy New Year.html",
+					"settings":
+					{
+						"buffer_size": 588,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								266,
+								266
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+								"php": "D:\\amp\\php\\php.exe"
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "city.html",
+					"settings":
+					{
+						"buffer_size": 327,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								238,
+								238
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+								"php": "D:\\amp\\php\\php.exe"
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "ln.html",
+					"settings":
+					{
+						"buffer_size": 621,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								225,
+								225
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+								"php": "D:\\amp\\php\\php.exe"
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 75.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 86.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

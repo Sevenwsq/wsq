@@ -1,0 +1,406 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>  </title>
+	<style>
+		a{text-decoration: none;}
+        *{margin: 0; border: 0; padding: 0;}
+        #aboveheader{
+            width: 1060px;
+            height: 100px;
+            background: skyblue;
+            margin:0 auto;
+            text-align: center;
+            border: 10px  #6fb7b7;/*dotted点 double双框线 solid线*/
+            border-style: solid double; 
+        }
+         #aboveheader h1{
+            font-size: 50px;
+            color: yellow;
+            text-shadow:#FFE153;
+            font-family: "微软雅黑";
+         }
+          #aboveheader span{
+            font-size: 20px;
+            display: block;
+            margin: 0 auto;
+            width: 300px;
+            font-weight: bold;
+            color: ivory;
+         }
+        #header{
+        	width: 1080px;
+        	height: 300px;
+        	margin: 0 auto;
+        }
+        #hleft{
+        	width: 320px;
+        	height: 295px;
+        	background: url(sunshine.jpg);
+        	float: left;
+             border: 5px solid #6fb7b7;
+        }
+        #hright{
+        	width: 740px;
+        	height: 295px;
+            background: url(rainbow.jpg);
+        	float: right;
+            border: 5px solid #6fb7b7;
+        }
+        #nav{
+        	margin-left: 80px;
+        	margin-top:250px; 
+            font-size: 30px;
+        }
+        #nav li{
+        	width: 100px;
+        	float: left;
+        	margin-right: 50px;
+            list-style-image: url(navigation.jpg); 
+            font-family: "微软雅黑"; 
+        }
+        #nav a{
+             color: #467500;
+        }
+        #nav a:hover{
+        	 width: 100px;
+             display: block;
+             color: black;
+             background: skyblue;
+             background: rgba(0,0,0,0.2);
+        }
+       
+
+        #hav p a{
+            width: 100px;
+            display: block;
+            background: gray;
+            background: rgba(0,0,0.6,0.6);
+            font-size: 20px;
+        }
+        ul li a:only-child{
+            background: none;
+        }
+        ul li:hover > ul{
+            display: block;/*光标滑入母选单后显示子选单*/
+        }
+        ul ul{
+            position: absolute;
+            buttom: 80%;
+            list-style: circle;
+            display: none;
+        }
+        #main{
+        	width: 1060px;
+        	height: 880px;
+        	background: white;
+        	margin: 0 auto;
+            border: 10px  #6fb7b7;/*dotted点 double双框线 solid线*/
+            border-style: solid double; 
+        }
+        #left{
+        	width: 380;
+        	height: 900px;
+        	float: left;    
+        }
+        #top{
+            width: 360px;
+            height: 400px;
+            margin-top:25px;
+            background: gray;
+             margin-left: 20px;
+            background: rgba(0,0,0,0.2);
+             font-size: 25px;  
+              font-family: "华文新魏";          
+        }
+        #spa{
+            width: 230px;
+            height: 260px;
+            margin: 30px;
+            padding: 20px;
+            line-height: 1.4;
+            text-indent: 2em;
+            background: skyblue;
+            position: relative;
+            top: 40px;
+            left: 10px;
+            right: 30px;
+            bottom: 50px;
+
+        }
+        #buttom{
+            width: 360px;
+            height: 350px;
+            margin-top:40px;
+            margin-left: 20px;
+            margin-bottom: 25px;
+            background: url(向日葵.jpg);
+            display: block;
+        }
+        #buttom:hover{
+            width: 360px;
+            height: 350px;
+            margin-top:50px;
+            margin-bottom: 25px;
+            background: url(向日葵.jpg) ;
+            transition:all 0.5s;
+            transform:  scale(0.9) rotate(10deg);
+            position: absolute;
+            z-index: 1;
+        }
+         #buttom:active{
+            width: 360px;
+            height: 350px;
+            margin-top:50px;
+            margin-bottom: 25px;
+            background: url(向日葵.jpg) ;
+            transition:all 0.5s;
+            transform:  scale(0.7) rotate(360deg);
+            position: absolute;
+            z-index: 1;
+        }
+        #right{
+        	width: 680px;
+        	height: 880px;
+        	float: right;
+        }
+        .first {
+            width: 300px;
+            height: 300px;
+            background: skyblue;
+            border-radius:50%;
+            margin: 0 auto;
+            margin-top: 70px;  
+            border: 15px greenyellow double;
+        }
+         .first:hover{
+            width: 300px;
+            height: 300px;
+            background:  skyblue;
+            border-radius:50%;
+            margin: 0 auto;
+            margin-top: 70px;
+            transform:scale(1.1);
+        }
+         .tx{
+            width: 240px;
+            height: 240px;
+             border-radius:50%;
+             background: url(first.jpg) no-repeat; 
+             margin: 0 auto;
+             margin-top: 30px;
+        }
+        .second{
+            width: 240px;
+            height: 340px;
+              border-radius:50%;
+            float: left;
+            background: skyblue;
+            margin: 30px;
+            border: 15px greenyellow double;
+        }
+         .second:hover{
+            width: 240px;
+            height: 340px;
+              border-radius:50%;
+            float: left;
+            margin: 30px;
+            transform:scale(1.1);
+        }
+        .tx1{
+            width: 200px;
+            height: 200px;
+             border-radius:50%;
+             background: url(情头男.jpg);
+             margin: 0 auto;
+             margin-top: 60px;
+        }
+        .three{
+            width: 240px;
+            height: 340px;
+              border-radius:50%;
+            float: left;
+            background: skyblue;
+             margin: 30px;
+             border: 15px greenyellow double;
+        }
+         .three:hover{
+            width: 240px;
+            height: 340px;
+              border-radius:50%;
+            float: left;
+            background: skyblue;
+             margin: 30px;
+             transform:scale(1.1);
+        }
+           .tx2{
+            width: 200px;
+            height: 200px;
+             border-radius:50%;
+             background: url(情头女.jpg);
+             margin: 0 auto;
+             margin-top: 60px;
+         }
+        #abovefooter{
+        	width: 1080;
+            margin: 0 auto;
+        }
+        #footer{
+            width: 1040px;
+            height: 220px;
+             margin:  auto;
+            background: skyblue;
+            font-family: "华文新魏";
+            line-height: 50px;
+            text-align: center;
+            border: 10px  #6fb7b7;
+            border-style: solid double;
+        }
+        .No{
+            width: 330px;
+            height: 180px;
+            border-left: 3px greenyellow dotted;
+            border-right: 3px greenyellow  dotted;
+            float: left;
+            margin-top: 20px;
+            margin-left: 7px;
+             color:cyan ;
+             font-size: 20px;
+             line-height: 15px;
+        }
+        .no1{
+            font-size: 30px;
+             line-height: 1.4;
+             color: cyan;
+        }
+        .no2{
+            font-size: 30px;
+            font-style: "微软雅黑";
+            color: black;
+             font-weight: 600;
+             line-height: 1.4;
+        }
+      #na li{
+        list-style-type: none;
+        display: block;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 100px;
+      }
+
+	</style>
+</head>
+<body>
+    <div id="aboveheader">
+        <h1>Smile As Sunshine</h1>
+        <span>
+            <marquee behavior="scroll" direction="right" scorolldelay="2000">很高兴与你们相遇</marquee>
+        </span>
+    </div>
+	<div id="header">
+		<div id="hleft"></div>
+		<div id="hright">
+			<ul id="nav">
+				<li><a href=" ">王桑乔</a>
+                    <ul id="hav">
+                        <p><a href="wsq.html">个人主页</a></p>
+                        <p><a href="menu.html">Welcome</a></p>
+                    </ul>
+                </li>
+				<li><a href=" ">常佳乐</a>
+                <ul id="hav">
+                        <p><a href="cjl.html" target="_blank">个人主页</a></p>
+                        <p><a href="menu.html">Welcome</a></p>
+                    </ul></li>
+				<li><a href=" ">李娜</a>
+                    <ul id="hav">
+                        <p><a href="ln.html" target="_blank">个人主页</a></p>
+                        <p><a href="menu.html" >Welcome</a></p>
+                    </ul>
+                </li>
+			</ul>
+		</div>
+	</div>
+	<div id="main">
+		<div id="left">
+           <div id="top"><div id="spa">三个来自蚌埠的老乡相遇于滁州学院信院软件工程专业，算是一种缘分吧。所有的遇见都是久别重逢，祝我们友谊长存！</div></div>
+            <div id="buttom"></div>      
+        </div>
+		<div id="right">
+			<div class="first">
+            <div class="tx"></div>      
+            </div>
+			<div class="second">
+            <div class="tx1"></div>         
+            </div>
+			<div class="three">
+            <div class="tx2"></div>          
+            </div>
+		</div>
+        <div id="abovefooter">
+		<div id="butong_net_right" style="overflow: hidden;width:1040px;  margin: 0 auto; border: 10px  #6fb7b7;
+            border-style: double ; " >
+			<table cellpadding="0" cellspacing="0" border="0">
+<tr><td id="butong_net_right1" valign="top" align="center">
+<table cellpadding="0" cellspacing="0" border="0">
+<tr align="center">
+<td><img src="1.jpg" width="200" height="333"></td>
+<td><img src="2.jpg" width="200" height="333"></td>
+<td><img src="3.jpg" width="200" height="333"></td>
+<td><img src="4.jpg" width="200" height="333"></td>
+<td><img src="5.jpg" width="200" height="333"></td>
+</tr>
+</table>
+</td>
+<td id="butong_net_right2" valign="top"></td>
+</tr>
+</table>
+		</div>
+        </div>
+          <div id="footer">
+       <div class="No no1"></br>团队成员：</br>王桑乔，常佳乐，李娜</div>
+        <div class="No no2"><br>每个人都有自己的梦想<br>希望每个都能梦想成真<br>加油！</div>
+         <div class="No no3">
+           轻触logo扫描二维码
+           <ul id="na">
+                <li><a href=" "><img src="qq.jpg" alt="qq"></a>
+                    <ul id="ha">
+                        <li><img src="QQCode.png" alt="QQ二维码"></li>
+                    </ul>
+                </li>
+            </ul>
+             <ul id="na">
+                <li><a href=" "><img src="weixin.jpg" alt="微信"></a>
+                    <ul id="ha">
+                        <li><img src="weixinCode.png" alt="微信二维码"></li>
+                    </ul>
+                </li>
+            </ul>
+             <ul id="na">
+                <li><a href=" "><img src="wei.jpg" alt="微博"></a>
+                    <ul id="ha">
+                        <li><img src="weiboCode.png" alt="微博二维码"></li>
+                    </ul>
+                </li>
+            </ul>
+         </div>
+
+    </div>
+	
+</body>
+<script>
+var speed=20//速度数值越大速度越慢
+butong_net_right2.innerHTML=butong_net_right1.innerHTML
+function Marquee4(){
+if(butong_net_right.scrollLeft<=0)
+butong_net_right.scrollLeft+=butong_net_right2.offsetWidth
+else{
+butong_net_right.scrollLeft--
+}
+}
+var MyMar4=setInterval(Marquee4,speed)
+butong_net_right.onmouseover=function() {clearInterval(MyMar4)}
+butong_net_right.onmouseout=function() {MyMar4=setInterval(Marquee4,speed)}
+</script>　 
+</html>

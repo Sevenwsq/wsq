@@ -1,0 +1,285 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mag",
+				"margin-top"
+			],
+			[
+				"align",
+				"vertical-align"
+			],
+			[
+				"text",
+				"text2"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"t",
+				"transparent"
+			],
+			[
+				"r",
+				"transparent"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"li",
+				"list	list-style-type"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"ali",
+				"text-align"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"hea",
+				"header"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"he",
+				"header"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"cl",
+				"color"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"w",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"emm",
+				"Emmet: Evaluate Math Expression"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/G/网页制作初体验html/myself website/third.html",
+		"/G/网页制作初体验html/相对定位与绝对定位.html",
+		"/G/网页制作初体验html/相对定位与绝对定位.sublime-workspace",
+		"/G/网页制作初体验html/flex.html",
+		"/G/网页制作初体验html/moon.html",
+		"/G/网页制作初体验html/01.html",
+		"/G/网页制作初体验html/index.html",
+		"/G/网页制作初体验html/02.html",
+		"/G/网页制作初体验html/首页实战.html",
+		"/G/网页制作初体验html/young.html",
+		"/G/网页制作初体验html/myself website/index.html、",
+		"/G/网页制作初体验html/second.html",
+		"/G/网页制作初体验html/young/young.html",
+		"/G/网页制作初体验html/js/01.js",
+		"/G/网页制作初体验html/a标签锚点和伪类.html",
+		"/G/网页制作初体验html/young/antique beauty.jpg",
+		"/G/网页制作初体验html/young/looking at the stars.png",
+		"/G/网页制作初体验html/寝室卫生值日表.html",
+		"/G/网页制作初体验html/月半.html",
+		"/G/网页制作初体验html/03.html",
+		"/G/网页制作初体验html/17素材01.html",
+		"/G/网页制作初体验html/just like before/02.html",
+		"/G/网页制作初体验html/03.sublime-workspace",
+		"/G/网页制作初体验html/css/demo.css",
+		"/C/Users/王桑乔/Desktop/Sublime Text 64bit/Sublime Text/Data/Packages/User/Emmet.sublime-settings"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 86.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

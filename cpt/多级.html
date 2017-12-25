@@ -1,0 +1,59 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>选单</title>
+	<style>
+		ul li{
+			position: relative;/*使子选单依照母选单的坐标显示*/
+		}
+		/*设定母选单连接样式*/
+		ul li a{
+			background: url(2.jpg);
+		}
+		/*当母选单下没有子选单时，也就是说只有一个连接时，影藏2.jpg*/
+		ul li a:only-child{
+			background: none;
+		}
+		ul li:hover > ul{
+			display: block;/*光标滑入母选单后显示子选单*/
+		}
+		/*二级选单显示于一级选单的略下方*/
+		ul ul{
+			position: absolute;
+			top: 50%;
+			list-style: none;
+			display: none;
+		}
+		/*三级选单则显示于二级选单的右方*/
+		ul ul ul{
+			position: absolute;
+			left: 100%;
+			top: 0;
+		}
+	</style>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="">选单1</a></li>
+			<li>
+				<a href="">选单2</a>
+		<ul>
+			<li>
+				<a href="">选单2-1</a>
+				<ul>
+					<li><a href="">选单2-1-1</a></li>
+					<li><a href="">选单2-1-2</a></li>
+				</ul>
+			</li>
+			<li><a href="">选单2-2</a></li>
+			<li><a href="">选单2-3</a></li>
+			</ul>
+		</li>
+		<li><a href="">选单3</a></li>
+		<li><a href="">选单4</a></li>
+	</ul>
+	</nav>
+</body>
+</html>

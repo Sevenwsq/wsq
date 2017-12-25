@@ -1,0 +1,401 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>myself</title>
+	<style>
+	a{text-decoration: none;}
+	li{list-style-type: none;}
+	*{margin: 0;padding: 0;}
+	#all{
+		width: 100%;
+		height: 1810px;
+		background: linear-gradient(white,aquamarine,white);
+
+	}
+	#topheader{
+		position: fixed;/*相对于窗口定位*/
+		width: 800px;
+		height: 50px;
+		margin: auto;
+		left: 0;right: 0;top: 0;
+		background: url(top.png);
+		opacity:0.6;
+	}
+	#topheader p{
+		text-align: right;
+		margin-right: 50px;
+		font-size: 22px;
+		font-family: "方正楷体";
+		margin-top: 10px;
+	}
+	#topheader  a:hover{
+		text-align: right;
+		font-size: 22px;
+		font-family: "方正楷体";
+		margin-top: 10px;
+		color: skyblue;
+		background: green;
+		background: rgba(0,0,0,0.4);
+	}
+	#header{
+		width: 800px;
+		height: 120px;
+		margin: 0 auto;
+		margin-top:60px; 
+		background: ivory;
+		border-bottom: 3px lawngreen dotted;
+		font-family: "方正楷体"; 
+	}
+	#htop{
+		height: 50px;
+	}
+	#left{
+		height: 50px;
+		width: 400px;
+		float: left;
+	}
+	#right{
+		height: 35px;
+		width: 300px;
+		float: right;
+		margin-top:15px; 
+	}
+	#right p{
+		overflow: hidden;
+		text-align: right;
+		font-size: "方正楷体";
+		font-family: darkgreen;
+		font-size: 20px;
+	}
+	#hcenter{
+		height: 60px;
+	}
+	#cleft{
+		width: 500px;
+		float: left;
+	}
+	#cright{
+		width: 200px;
+		height: 60px;
+		float: right;
+		margin-right: 45px;
+		background: url(welcome.png);
+	}
+	#main{
+		width: 800px;
+		height: 350px;
+		margin: 0 auto;
+		border-bottom: 3px lawngreen dotted;
+		background: ivory;
+	}
+	#mleft{
+		width: 450px;
+		height: 300px;
+		float: left;
+		margin-left: 10px;
+	}
+	 #mleft li {
+                width: 450px;
+                margin-top:8px;
+        }
+     #mleft a:link{
+                font-size: 25px;
+                font-family: "方正楷体";
+                color: cyan;
+                display: block;//内联强制转换为块状
+                width: 500px;
+                height: 40px;
+                line-height: 25px;
+        }
+      #mleft a:hover{
+                color: black;
+                background: gray;
+                background: rgba(0,0,0,0.2);
+                transform: scale(1.05);
+            }
+       #mleft a:active{
+                color: black;
+                background: rgba(0,0,0,0.5);
+                transform: scale(1.05);
+            }
+        #mright{
+				width: 300px;
+				height: 300px;
+				float: right;
+				margin-top: 20px;
+				margin-right: 10px;
+				background: url(note.png);
+            }
+            #meng{
+            	width: 300px;
+            	height: 300px;
+            }
+            #meng :link{
+            	background: none;
+            }
+            #meng:hover{
+            background: url(meng.jpg);
+            opacity:0.6;
+            }
+            #ftop{
+            	border-top:10px white solid; 
+            	border-bottom:10px white solid; 
+            	background: ivory;
+            	font-size: 40px;
+            	width: 800px;
+            	height: 50px;
+            	margin: 0 auto;
+            	color: darkgoldenrod;
+            	font-family: "新宋体";
+            }
+            #footer{
+            	width: 800px;
+            	height: 400px;
+            	margin:  0 auto;
+            	background: ivory;
+            	border-bottom:10px white solid; 
+            }
+           #footer img{
+              margin-top: 30px;
+              margin-left: 50px; 
+              float: left;
+            }
+          #lright{
+              width: 350px;
+              height: 350px;
+              margin: 25px;
+              margin-top: 50px;
+              margin-right:50px; 
+              float: right;
+              font-size: 22px;
+              line-height: 1.4;
+              text-indent: 2em;
+              text-decoration: underline;
+          }
+         #end{
+         	margin: 0 auto;
+         	width: 800px;
+         	height: 400px;
+         	background: ivory;
+         	border-bottom: 3px lawngreen dotted;
+         }
+         #eleft{
+         	  width: 350px;
+              height: 350px;
+              margin: 25px;
+              margin-top: 50px;
+              margin-right:50px; 
+              float: left;
+              font-size: 20px;
+              line-height: 1.4;
+              text-indent: 2em;
+              text-decoration: underline;
+         }
+          #end img{
+              margin-top: 30px;
+              margin-right: 50px;
+              float: right;
+            }
+           
+            #other{
+            margin: 0 auto;
+         	width: 800px;
+         	height: 350px;
+         	background: ivory;
+         	border-top:10px white solid;
+          border-bottom: 25px white solid; 
+            }
+            #oleft{
+            margin: 0 auto;
+         	width: 300px;
+         	height: 350px;
+         	margin: 50px;
+         	margin-top:0px; 
+         	float: left;
+            }
+            #top1{
+				width: 300px;
+				height: 35px;
+				margin: 0 auto;
+				background: lawngreen;
+				border: 8px green double;
+       opacity: 0.4;
+				letter-spacing: 20px;
+				font-size: 30px;
+				font-weight: 900;
+				text-align: center;
+            }
+            #center1{
+             width: 300px;
+              height: 250px;
+              margin: 25px;
+              margin-top: 5px;
+              margin-left: 8px;
+              float: left;
+              font-size: 20px;
+              background: ivory;
+              color: black;
+            }
+           
+           #hobby{
+            	width: 300px;
+               height: 250px;
+               background: url(myhobby.jpg);
+            }
+             #hobby img{
+              width: 150px;
+              height: 200px;
+              float: left;
+              margin-left:60px;
+              margin-top:20px;
+              position: absolute;
+              z-index: 1; 
+              opacity: 0.5;
+            }
+          #hobby:link{
+             background: url(myhobby.jpg);
+              opacity: 0.5;
+            }
+            #hobby:hover{
+              background: none;
+              transition:all 1.5s;
+              transform: rotateY(360deg) ;
+            }
+            #oright{
+            margin: 0 auto;
+         	width: 300px;
+         	height: 350px;
+         	margin: 50px;
+         	margin-top:0px;
+         	float: right;
+            }
+            #top2{
+				width: 300px;
+				height: 35px;
+				margin: 0 auto;
+				background: lawngreen;
+				border: 8px green double;
+				opacity:0.4;
+				letter-spacing: 20px;
+				font-size: 30px;
+				font-weight: 900;
+				text-align: center;
+            }
+            #center2{
+              width: 300px;
+              height: 250px;
+              margin: 25px;
+              margin-left: 8px;
+              margin-top: 5px;
+              float: left;
+              font-size: 20px;
+              line-height: 1.4;
+            }
+             #dream{
+            	width: 300px;
+              height: 250px;
+               background: url(mydream.jpg);
+            }
+             #dream img{
+              width: 150px;
+              height: 200px;
+              float: left;
+              margin-left:60px;
+              margin-top:20px;
+              position: absolute;
+              z-index: 1; 
+              opacity: 0.6;
+            }
+          #dream:link{
+             background: url(mydream.jpg);
+              opacity: 0.5;
+            }
+            #dream:hover{
+             background: none;
+               transition:all 1.5s;
+              transform: rotateY(360deg) ;
+            }
+             #other p{
+              display: block;
+              margin-top:200px;
+              margin-left:70px; 
+              position: absolute;
+              margin-right: 95px;
+              z-index: -1; 
+              text-decoration:underline;
+              text-align: center;
+            }
+             #none{
+              width: 900px;
+              height: 15px;
+              margin: 0 auto;
+              background: white;
+              opacity:0.3;
+              border-bottom: 3px green dotted;
+              border-top: 3px green dotted;
+            }
+	</style>
+</head>
+<body>
+	<div id="all">
+	<div id="topheader">
+		<p><a href="index.html" target="_blank">首页</a></p>
+	</div>
+	<div id="header">
+		<div id="htop">
+		<div id="left">
+			<h1>我的名字是王桑乔</h1></div>
+      <div id="right"> 
+      	<marquee behavior="scroll" direction="left" scorolldelay="1000"  onMouseOUt="this.start()" onMouseOver="this.stop()">
+        	<p>欢迎来到我的个人主页</p>
+        </marquee>
+    </div>
+        </div>
+		<div id="hcenter">
+			<div id="cleft"><h2>座右铭:要有最遥远的梦想，与最朴素的生活<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp即使明日天寒地冻，路远马亡......</h2></div>
+			<div id="cright"></div>
+		</div>
+	</div>
+	<div id="main">
+		<div id="mleft">
+		
+			<li><a href="" ><img src="gender.png" alt="性别">性别：男</a></li>
+			<li><a href=""><img src="QQ.png" alt="QQ">QQ：381481740</a></li>
+			<li><a href=""><img src="mail.png" alt="邮箱">邮箱：381481740@qq.com</a></li>
+			<li><a href=""><img src="telephone1.png" alt="电话">17856001700</a></li>
+			<li><a href=""><img src="house.png" alt="地址">家乡：安徽蚌埠</a></li>
+			<li><a href="http://www.chzu.edu.cn/"><img src="mao.png" alt="学校">学校：滁州学院</a></li>
+		
+		</div>
+		<div id="mright">
+			<a href=" "><div id="meng"></div></a>
+		</div>
+	</div>
+		<div id="ftop">个人成长经历:</div>
+	<div id="footer">
+	<img src="boy.gif" width="300px" height="300px"><!--图片来源于网络-->
+	<div id="lright"><span>前十八年大都生活在与社会隔离的学校当中，不知生活艰苦，举步维艰。学校生活的大都用在学习上，最大的乐趣莫过于看书，课外书，倒是养成了喜欢看书的习惯。不知从何时起，偶尔会跟同学一起打打篮球，直到现在依然觉得篮球很有趣，虽然打的不怎么样。</span></div>
+	</div>
+	<div id="end">
+		<div id="eleft">今年十九岁。在跨入了大学校门之后，才渐渐懂得了父母的不易，也明白了大学其实并不是天堂。社会究竟是美好的还是残酷，大学会向我慢慢揭晓。不过，生活是自己的，将来是美好或是艰苦，无论如何都与大学的努力程度脱不了干系。所以再次把座右铭送给自己——要有最遥远的梦想，与最朴素的生活，即使明日天寒地冻，路远马亡……</div>
+		<img src="flower.gif" width="300px"height="300px" >
+	</div>
+	<div id="other">
+		<div id="oleft">
+			<div id="top1">我的爱好</div>
+			<div id="center1">
+				<a href=" "><div id="hobby"><img src="b.gif" width="150px" height="150px"> <p>平时爱打篮球</dr>也喜欢看书</p> </div></a>
+			</div>
+		</div>
+		<div id="oright">
+			<div id="top2">我的梦想</div>
+			<div id="center2">
+				<a href=""><div id="dream"><img src="t.gif" alt=""><p>我想成为一名</dr>前端攻城狮</p></div></a>
+			</div>
+		</div>
+	</div>
+	<div id="none"></div>
+	</div>
+</body>
+</html>
