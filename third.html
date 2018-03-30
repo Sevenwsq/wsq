@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>空</title>
+	<style>
+		#box{
+			height: 250px;
+			width: 400px;
+			margin: 0 auto;
+			background-color: #CCC;
+			position: relative;
+		}
+		#text{
+			height: 150px;
+			width: 300px;
+			position: absolute;
+			left: 50px;
+			top: 20px;
+		}
+		.pic{
+			width: 35px;
+			height: 35px;
+			position: absolute;
+			top: 180px;
+			left: 50px;
+		}
+		.pic img{
+			width: 35px;
+			height: 35px;
+			cursor: pointer;
+			display: none;
+		}
+		#btn{
+			width: 35px;
+			height: 20px;
+			font-size: 15px;
+			position: absolute;
+			right: 50px;
+			top: 180px; 
+			text-align: center;
+			background-color: gray;
+			cursor: pointer;
+		}
+		ul{
+			list-style: none;
+			height: 250px;
+			width: 350px;
+			margin: 0 auto;
+		}
+		ul li{
+			height: 35px;
+			width: 350px;
+			line-height: 35px;
+			font-size: 18px;
+			border-bottom: 1px solid black;
+		}
+		ul li img{
+			width: 35px;
+			height: 35px;
+			margin-right: 5px;
+			float: left;
+		}
+	</style>
+	
+</head>
+<body>
+	<div id="box">
+		<textarea  id="text"></textarea>
+		<div class="pic">
+			<img src="logo.png" style="display:block;">
+			<img src="兰花.jpg" >
+		</div>
+		<div id="btn">发表</div>
+	</div>
+	<ul> 
+		<!--
+		<li><img src="logo.png" style="display:block;"><p>哈哈哈哈哈哈</p></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		-->
+	</ul>
+</body>
+<script type="text/javascript">
+			var oImg = document.querySelectorAll("img");
+			var oSrc = oImg[0].src;
+			var oText = document.getElementById("text");
+			var oBtn = document.getElementById("btn");
+			var oUl = document.querySelector("ul");
+			oBtn.onclick = function(){
+				var val = oText.value;
+				oText.value = '';
+				oUl.innerHTML += '<li><img src="'+ oSrc +'" /><p>'+ val +'</p></li>';
+			}
+			oImg[0].onclick = function(){
+				this.style.display = "none";
+				oImg[1].style.display = "block";
+				oSrc = oImg[1].src;
+			}
+			oImg[1].onclick = function(){
+				this.style.display = "none";
+				oImg[0].style.display = "block";
+				oSrc = oImg[0].src;
+			}
+		
+	</script>
+</html>
